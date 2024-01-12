@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/light_yellow">
+
+    <TextView
+        android:layout_width="458dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="50dp"
+        android:text="Create
+        Account"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:hint="Введите имя"/>
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:hint="Введите адрес эл. почты"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="288dp"
+        android:layout_height="513dp"
+        android:layout_marginTop="-175dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/sign44" />
+
+
+</LinearLayout>
